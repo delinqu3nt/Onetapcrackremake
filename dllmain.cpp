@@ -36,12 +36,12 @@ BOOL APIENTRY DllMain (HMODULE module, DWORD callReason, LPVOID lpReserved) {
 
         //Logo. 
       
-        logger.Info ("OTC");
+        logger.Info ("deli's onecrack");
 
 
         logger.Space (2);
 
-        logger.Info ("Loading up OTC.. ");
+        logger.Info ("Loading up deli's onecrack.. ");
 
         logger.Space ();
 
@@ -94,8 +94,8 @@ BOOL APIENTRY DllMain (HMODULE module, DWORD callReason, LPVOID lpReserved) {
 
         //TODO: Waiting your beatiful name.
         //README: !!getenv it's a function!!. Please read docs before edit and ask questions.
-        segment.GetFramework().UpdateWatermark (getenv ("USERNAME"), "OTC");
-        segment.GetFramework().UpdateMenuWatermark ("onetap.su ");
+        segment.GetFramework().UpdateWatermark (getenv ("USERNAME"), "deli's onecrack");
+        segment.GetFramework().UpdateMenuWatermark ("deli's onecrack ");
 
         logger.Info ("| [~] Invoking OEP...");
        
@@ -105,7 +105,7 @@ BOOL APIENTRY DllMain (HMODULE module, DWORD callReason, LPVOID lpReserved) {
         //Hide menu for better log look.
         segment.GetFramework().SetMenuStatus (false);
 
-        logger.Info ("| [+] OTC initialized.");
+        logger.Info ("| [+] deli's onecrack initialized.");
 
         logger.Space ();
        
